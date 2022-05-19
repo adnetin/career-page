@@ -88,7 +88,7 @@ a.dark-link:focus {
 }
 
 .link-left-arrow:after {
-    content: url(../images/arrow-b.svg);
+    content: url(../images/icons/arrow-b.svg);
     display: inline-block;
     vertical-align: baseline;
     margin: 0 0.5rem;
@@ -102,7 +102,7 @@ a.dark-link:focus {
 }
 
 .link-left-arrow.hover-md-white:after {
-    content: url(../images/arrow-w.svg);
+    content: url(../images/icons/arrow-w.svg);
 }
 
 .border-left {
@@ -154,7 +154,7 @@ a.dark-link:focus {
 
 .dropdown-toggle:after {
     content: "";
-    background-image: url(../images/dropdown.svg);
+    background-image: url(../images/icons/dropdown.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -169,7 +169,7 @@ a.dark-link:focus {
 .dropdown-toggle:hover::after,
 .dropdown-toggle:active::after,
 .dropdown-toggle:focus::after {
-    background-image: url(../images/dropdown_bl.svg);
+    background-image: url(../images/icons/dropdown_bl.svg);
 }
 
 .show .dropdown-toggle:active::after,
@@ -178,13 +178,13 @@ a.dark-link:focus {
 }
 
 .dropdown-toggle.white-toggle:after {
-    background-image: url(../images/dropdown_wh.svg);
+    background-image: url(../images/icons/dropdown_wh.svg);
 }
 
 .dropdown-toggle.white-toggle:hover::after,
 .dropdown-toggle.white-toggle:active::after,
 .dropdown-toggle.white-toggle:focus::after {
-    background-image: url(../images/dropdown_bl.svg);
+    background-image: url(../images/icons/dropdown_bl.svg);
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -245,65 +245,65 @@ a.dark-link:focus {
 }
 
 .vk-icon {
-    background-image: url(../images/vk.svg);
+    background-image: url(../images/icons/vk.svg);
 }
 
 a:hover>.vk-icon,
 a:focus>.vk-icon,
 a:active>.vk-icon,
 a.show>.vk-icon {
-    background-image: url(../images/vk-b.svg);
+    background-image: url(../images/icons/vk-b.svg);
 }
 
 .vk-icon.blue {
-    background-image: url(../images/vk-b.svg);
+    background-image: url(../images/icons/vk-b.svg);
 }
 
 .youtube-icon {
-    background-image: url(../images/youtube.svg);
+    background-image: url(../images/icons/youtube.svg);
 }
 
 a:hover>.youtube-icon,
 a:focus>.youtube-icon,
 a:active>.youtube-icon,
 a.show>.youtube-icon {
-    background-image: url(../images/youtube-b.svg);
+    background-image: url(../images/icons/youtube-b.svg);
 }
 
 .youtube-icon.blue {
-    background-image: url(../images/youtube-b.svg);
+    background-image: url(../images/icons/youtube-b.svg);
 }
 
 .search-icon {
-    background-image: url(../images/search.svg);
+    background-image: url(../images/icons/search.svg);
 }
 
 .search-w-icon {
-    background-image: url(../images/search-w.svg) !important;
+    background-image: url(../images/icons/search-w.svg) !important;
 }
 
 .chosen-flag-icon.white {
-    background-image: url(../images/chosen-w.svg);
+    background-image: url(../images/icons/chosen-w.svg);
 }
 
 .navbar-bottom .nav-item .nav-link:hover .chosen-flag-icon,
 .navbar-bottom .nav-item .nav-link:active .chosen-flag-icon,
 .navbar-bottom .nav-item .nav-link:focus .chosen-flag-icon {
-    background-image: url(../images/chosen-b.svg);
+    background-image: url(../images/icons/chosen-b.svg);
 }
 
 .arrow-b-icon {
-    background-image: url(../images/arrow-b.svg);
+    background-image: url(../images/icons/arrow-b.svg);
 }
 
 .hot-icon {
-    background-image: url(../images/hot.svg);
+    background-image: url(../images/icons/hot.svg);
     width: 30px;
     height: 30px;
 }
 
 .update-icon {
-    background-image: url(../images/update.svg);
+    background-image: url(../images/icons/update.svg);
     width: 19px;
     height: 24px;
 }
@@ -317,23 +317,31 @@ a.show>.youtube-icon {
 }
 
 .marker-b-icon {
-    background-image: url(../images/map.svg);
+    background-image: url(../images/icons/map.svg);
 }
 
 .schedule-icon {
-    background-image: url(../images/schedule.svg);
+    background-image: url(../images/icons/schedule.svg);
 }
 
 .calendar-icon {
-    background-image: url(../images/calendar.svg);
+    background-image: url(../images/icons/calendar.svg);
 }
 
 .phone-b-icon {
-    background-image: url(../images/phone.svg);
+    background-image: url(../images/icons/phone.svg);
 }
 
 .globe-icon {
-    background-image: url(../images/globe.svg);
+    background-image: url(../images/icons/globe.svg);
+}
+
+.collapsed .toggle-collapse-icon {
+    background-image: url(../images/icons/plus.svg);
+}
+
+.toggle-collapse-icon {
+    background-image: url(../images/icons/minus.svg);
 }
 
 /* Career main banner */
@@ -393,11 +401,6 @@ a.show>.youtube-icon {
     font-weight: 300;
 }
 
-@media (min-width: 768px) {
-    .career-banner .input-group>.btn {
-    max-width: 200px;
-}
-}
 
 /* Career direction and vacancy */
 
@@ -502,15 +505,15 @@ a.show>.youtube-icon {
 }
 
 .internship-1-icon {
-    background-image: url(../images/internship-1.svg);
+    background-image: url(../images/icons/internship-1.svg);
 }
 
 .internship-2-icon {
-    background-image: url(../images/internship-2.svg);
+    background-image: url(../images/icons/internship-2.svg);
 }
-
+icons/
 .internship-3-icon {
-    background-image: url(../images/internship-3.svg);
+    background-image: url(../images/icons/internship-3.svg);
 }
 
 
@@ -679,7 +682,247 @@ a.show>.youtube-icon {
     padding: 2px 4px;
 }
 
+.fixed-panel {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: white;
+    z-index: 10;
+}
+
+.fixed-panel .wrapper {
+    padding: 12px 1rem;
+}
+
+.fixed-panel .wrapper ul li a {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    color: #333333;
+}
+
+.fixed-panel .wrapper ul li.active a {
+    color: #1E88E5;
+}
+
+.fixed-panel .wrapper ul li a .icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.fixed-panel .wrapper ul li.active a .career-icon {
+    background-image: url(../images/icons/career.svg);
+}
+.vacancies-icon {
+    background-image: url(../images/icons/vacancy.svg);
+}
+
+.chosen-flag-icon.dark {
+    background-image: url(../images/icons/chosen-d.svg);
+}
+
+.about-icon {
+    background-image: url(../images/icons/gaz.svg);
+}
+
+.recruiting-icon {
+    background-image: url(../images/icons/recruting.svg);
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+/* Modal menu all sites */
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.all-sites .modal-fullscreen .modal-content {
+    top: 40px;    
+    height: calc(100vh - 40px);
+    overflow: auto;
+}
+
+.all-sites .modal-fullscreen .modal-header {
+    border: 0;
+}
+
+.all-sites .modal-fullscreen .list-menu:not(:first-child) {
+    margin-top: 2.6rem;
+}
+
+.all-sites .modal-fullscreen .list-menu h4 {
+    font-size: 0.9375rem;
+    line-height: 1.33;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.all-sites .modal-fullscreen .list-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.all-sites .modal-fullscreen .list-menu ul li {
+    padding-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-fullscreen .list-menu ul li a {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.modal-fullscreen .list-menu ul li a:hover,
+.modal-fullscreen .list-menu ul li a:active,
+.modal-fullscreen .list-menu ul li a:focus {
+    color: #1E88E5;
+    text-decoration: none;
+    border-bottom-color: #1E88E5;
+}
+
 /* Responsive */
+
+@media (max-width: 576px) {
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid,
+    .navbar-expand-lg>.container-sm,
+    .navbar-expand-lg>.container-md,
+    .navbar-expand-lg>.container-lg,
+    .navbar-expand-lg>.container-xl {
+            padding-right: 0;
+            padding-left: 0;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;       
+    }
+
+    .career-header .navbar-main {
+        padding: 10px 10px;
+    }
+
+    .career-header .navbar-main .search-icon {
+        font-size: 1.4em;       
+    }
+
+    .career-header .navbar-light .navbar-toggler {
+        border: 0;
+    }
+
+    .career-header .logo img {
+        max-height: 40px;
+    }
+    
+    .career-banner {
+        background-position: top right 20%;
+    }
+
+    .career-banner .wrapper {
+        margin-right: 0;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .career-banner .wrapper h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .career-banner .wrapper p {
+       max-width: 100%;
+    }
+
+    .career-direction h2, 
+    .vacancy-of-day h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .career-direction {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    .vacancy-of-day {
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+
+    .internship .caption {
+        width: 100%;
+        padding: 22px 0 56px 0;
+    }    
+
+    .internship .caption .large-icon {
+       margin-right: 10px;
+    }
+
+    .news-list {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .interview-banner {    
+        height: 500px;
+    }
+
+    .career-footer {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+
+    .career-footer .top h3 {
+        border-top: 1px solid #e6e6e6;
+    }
+
+}
+
+@media (min-width: 768px) {
+     
+    .career-banner .input-group>.btn {
+        max-width: 200px;
+    }
+
+    .internship .caption {     
+        padding: 50px 10px;
+    }    
+    
+    .interview-banner {
+        height: 500px;
+    }
+    
+    .interview-banner h2 {
+        max-height: none;
+        overflow: visible;
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .career-footer {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }   
+
+    .career-footer .top h3 .icon {
+        height: 10px;
+        width: 10px;
+    }
+}
+
 
 @media (min-width: 992px) {
     .career-header .navbar-top,
@@ -736,8 +979,14 @@ a.show>.youtube-icon {
     .interview-banner {
         height: 640px;
     }
+
     .interview-banner h2 {
         font-size: 22px;
         line-height: 32px;
+    }
+
+    .career-footer {
+        padding-top: 50px;
+        padding-bottom: 0;
     }
 }
